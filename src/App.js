@@ -4,6 +4,8 @@ import './App.css';
 import Counter from './Components/counter';
 import InputField from './Components/inputField'
 import Home from "./Components/Home";
+import Student from "./Components/Student";
+import UserForm from "./Components/userForm";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <GreetBtn name="Contact us" onclick={() => alert("Go to contact")}/>
       <InputField/>
       <Home/>
+      <Student name="Miracle" age={25} isStudent={true}/>
+      <UserForm/>
     </>
   );
 }

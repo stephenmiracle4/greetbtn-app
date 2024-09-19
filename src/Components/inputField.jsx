@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+
 function InputField() {
   const [name, setName] = useState ("")
   return (
@@ -7,7 +8,7 @@ function InputField() {
       inputField
     <form action="">
       <label>Enter Your Name
-      <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+      <input className="input" type="text" value={name} onChange={(e) => setName(e.target.value)} />
     <input type="button" value="text" />
     </label>
 </form>
